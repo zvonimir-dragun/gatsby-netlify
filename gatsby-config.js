@@ -184,5 +184,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Sport Droid`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`, //#f8f9fa
+        theme_color: `#a2466c`,
+        display: `standalone`,
+      },
+    },
   ],
 }
