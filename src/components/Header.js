@@ -27,7 +27,7 @@ export default props => (
             <b className="text-dark">Another action</b>
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">
-            <b className="text-dark">Something</b></NavDropdown.Item>
+            <b className="text-dark">Something</b>
           </NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.4">
