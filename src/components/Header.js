@@ -11,27 +11,27 @@ export default props => (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link as={Link} to="/">
-          <b className="text-dark">Home</b>
+          <b className="text-light">Home</b>
         </Nav.Link>
         <Nav.Link as={Link} to="/about">
-          <b className="text-dark">About Us</b>
+          <b className="text-light">About Us</b>
         </Nav.Link>
         <Nav.Link as={Link} to="/contact">
-          <b className="text-dark">Contact Us</b>
+          <b className="text-light">Contact Us</b>
         </Nav.Link>
         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">
-            <b className="text-dark">Link</b>
+            <b className="text-light">Link</b>
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">
-            <b className="text-dark">Another action</b>
+            <b className="text-light">Another action</b>
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">
-            <b className="text-dark">Something</b>/NavDropdown.Item>
+            <b className="text-light">Something</b>/NavDropdown.Item>
           </NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.4">
-            <b className="text-dark">Separated link</b>
+            <b className="text-light">Separated link</b>
           </NavDropdown.Item>
         </NavDropdown>
       </Nav>
