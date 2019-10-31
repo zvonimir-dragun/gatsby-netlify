@@ -21,17 +21,17 @@ export default props => (
         </Nav.Link>
         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">
-            <b className="text-light">Link</b>
+            <b className="text-dark">Link</b>
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">
-            <b className="text-light">Another action</b>
+            <b className="text-dark">Another action</b>
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">
-            <b className="text-light">Something</b>/NavDropdown.Item>
+            <b className="text-dark">Something</b></NavDropdown.Item>
           </NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.4">
-            <b className="text-light">Separated link</b>
+            <b className="text-dark">Separated link</b>
           </NavDropdown.Item>
         </NavDropdown>
       </Nav>
